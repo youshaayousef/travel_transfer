@@ -1,0 +1,3285 @@
+[
+{
+  "model": "gallery.gallery",
+  "pk": 1,
+  "fields": {
+    "title": "صراف",
+    "description": "مكتب الصرافة",
+    "category": "carousel",
+    "image": "gallery/ATM.jpg",
+    "created_at": "2025-05-03T10:31:46.586Z",
+    "updated_at": "2025-08-14T15:23:14.890Z"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 2,
+  "fields": {
+    "title": "الحجز",
+    "description": "حجز مقعد بالحافلة",
+    "category": "carousel",
+    "image": "gallery/reservation.jpg",
+    "created_at": "2025-05-03T10:32:44.214Z",
+    "updated_at": "2025-08-14T15:22:58.519Z"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 3,
+  "fields": {
+    "title": "التسوق",
+    "description": "أطلب منتجات متاجر",
+    "category": "carousel",
+    "image": "gallery/shopping.jpg",
+    "created_at": "2025-05-03T10:33:14.745Z",
+    "updated_at": "2025-08-14T15:22:34.358Z"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 4,
+  "fields": {
+    "title": "البريد",
+    "description": "مكتب البريد لإرسال الطرود",
+    "category": "carousel",
+    "image": "gallery/post.jpg",
+    "created_at": "2025-05-03T10:34:15.876Z",
+    "updated_at": "2025-08-14T15:22:18.549Z"
+  }
+},
+{
+  "model": "gallery.gallery",
+  "pk": 5,
+  "fields": {
+    "title": "الحوالة",
+    "description": "تحويل الأموال",
+    "category": "carousel",
+    "image": "gallery/transfer.jpg",
+    "created_at": "2025-05-03T10:34:58.770Z",
+    "updated_at": "2025-08-14T15:22:05.671Z"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 1,
+  "fields": {
+    "name": "دمشق",
+    "image": "gallery/governorate/Damascus.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 2,
+  "fields": {
+    "name": "ريف دمشق",
+    "image": "gallery/governorate/Rif_Dimashq.png"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 3,
+  "fields": {
+    "name": "السويداء",
+    "image": "gallery/governorate/As-Suwayda.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 4,
+  "fields": {
+    "name": "درعا",
+    "image": "gallery/governorate/Daraa.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 5,
+  "fields": {
+    "name": "القنيطرة",
+    "image": "gallery/governorate/Qunaitra.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 6,
+  "fields": {
+    "name": "حمص",
+    "image": "gallery/governorate/Homs.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 7,
+  "fields": {
+    "name": "دير الزور",
+    "image": "gallery/governorate/Deir_ez-Zor.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 8,
+  "fields": {
+    "name": "الرقة",
+    "image": "gallery/governorate/Raqqa.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 9,
+  "fields": {
+    "name": "الحسكة",
+    "image": "gallery/governorate/Al-Hasakah.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 10,
+  "fields": {
+    "name": "حلب",
+    "image": "gallery/governorate/Aleppo.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 11,
+  "fields": {
+    "name": "حماه",
+    "image": "gallery/governorate/Hama.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 12,
+  "fields": {
+    "name": "إدلب",
+    "image": "gallery/governorate/Idlib.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 13,
+  "fields": {
+    "name": "اللاذقية",
+    "image": "gallery/governorate/Latakia.jpg"
+  }
+},
+{
+  "model": "post.governorate",
+  "pk": 14,
+  "fields": {
+    "name": "طرطوس",
+    "image": "gallery/governorate/Tartous.jpg"
+  }
+},
+{
+  "model": "post.city",
+  "pk": 1,
+  "fields": {
+    "name": "دمشق",
+    "governorate": 1
+  }
+},
+{
+  "model": "post.city",
+  "pk": 2,
+  "fields": {
+    "name": "ريف دمشق",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 3,
+  "fields": {
+    "name": "السويداء",
+    "governorate": 3
+  }
+},
+{
+  "model": "post.city",
+  "pk": 4,
+  "fields": {
+    "name": "درعا",
+    "governorate": 4
+  }
+},
+{
+  "model": "post.city",
+  "pk": 5,
+  "fields": {
+    "name": "القنيطرة",
+    "governorate": 5
+  }
+},
+{
+  "model": "post.city",
+  "pk": 6,
+  "fields": {
+    "name": "حمص",
+    "governorate": 6
+  }
+},
+{
+  "model": "post.city",
+  "pk": 7,
+  "fields": {
+    "name": "دير الزور",
+    "governorate": 7
+  }
+},
+{
+  "model": "post.city",
+  "pk": 8,
+  "fields": {
+    "name": "الرقة",
+    "governorate": 8
+  }
+},
+{
+  "model": "post.city",
+  "pk": 9,
+  "fields": {
+    "name": "الحسكة",
+    "governorate": 9
+  }
+},
+{
+  "model": "post.city",
+  "pk": 10,
+  "fields": {
+    "name": "حلب",
+    "governorate": 10
+  }
+},
+{
+  "model": "post.city",
+  "pk": 11,
+  "fields": {
+    "name": "حماه",
+    "governorate": 11
+  }
+},
+{
+  "model": "post.city",
+  "pk": 12,
+  "fields": {
+    "name": "إدلب",
+    "governorate": 12
+  }
+},
+{
+  "model": "post.city",
+  "pk": 13,
+  "fields": {
+    "name": "اللاذقية",
+    "governorate": 13
+  }
+},
+{
+  "model": "post.city",
+  "pk": 14,
+  "fields": {
+    "name": "طرطوس",
+    "governorate": 14
+  }
+},
+{
+  "model": "post.city",
+  "pk": 15,
+  "fields": {
+    "name": "القرداحة",
+    "governorate": 13
+  }
+},
+{
+  "model": "post.city",
+  "pk": 16,
+  "fields": {
+    "name": "الحفة",
+    "governorate": 13
+  }
+},
+{
+  "model": "post.city",
+  "pk": 17,
+  "fields": {
+    "name": "جبلة",
+    "governorate": 13
+  }
+},
+{
+  "model": "post.city",
+  "pk": 18,
+  "fields": {
+    "name": "صافيتا",
+    "governorate": 14
+  }
+},
+{
+  "model": "post.city",
+  "pk": 19,
+  "fields": {
+    "name": "دريكيش",
+    "governorate": 14
+  }
+},
+{
+  "model": "post.city",
+  "pk": 20,
+  "fields": {
+    "name": "الشيخ بدر",
+    "governorate": 14
+  }
+},
+{
+  "model": "post.city",
+  "pk": 21,
+  "fields": {
+    "name": "بانياس",
+    "governorate": 14
+  }
+},
+{
+  "model": "post.city",
+  "pk": 22,
+  "fields": {
+    "name": "شهبا",
+    "governorate": 3
+  }
+},
+{
+  "model": "post.city",
+  "pk": 23,
+  "fields": {
+    "name": "صلخد",
+    "governorate": 3
+  }
+},
+{
+  "model": "post.city",
+  "pk": 24,
+  "fields": {
+    "name": "التل",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 25,
+  "fields": {
+    "name": "داريا",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 26,
+  "fields": {
+    "name": "دوما",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 27,
+  "fields": {
+    "name": "الزبداني",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 28,
+  "fields": {
+    "name": "قدسيا",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 29,
+  "fields": {
+    "name": "قطنا",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 30,
+  "fields": {
+    "name": "القطيفة",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 31,
+  "fields": {
+    "name": "النبك",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 32,
+  "fields": {
+    "name": "يبرود",
+    "governorate": 2
+  }
+},
+{
+  "model": "post.city",
+  "pk": 33,
+  "fields": {
+    "name": "الثورة",
+    "governorate": 8
+  }
+},
+{
+  "model": "post.city",
+  "pk": 34,
+  "fields": {
+    "name": "تل أبيض",
+    "governorate": 8
+  }
+},
+{
+  "model": "post.city",
+  "pk": 35,
+  "fields": {
+    "name": "إزرع",
+    "governorate": 4
+  }
+},
+{
+  "model": "post.city",
+  "pk": 36,
+  "fields": {
+    "name": "الصنمين",
+    "governorate": 4
+  }
+},
+{
+  "model": "post.city",
+  "pk": 37,
+  "fields": {
+    "name": "البوكمال",
+    "governorate": 7
+  }
+},
+{
+  "model": "post.city",
+  "pk": 38,
+  "fields": {
+    "name": "الميادين",
+    "governorate": 7
+  }
+},
+{
+  "model": "post.city",
+  "pk": 39,
+  "fields": {
+    "name": "الرستن",
+    "governorate": 6
+  }
+},
+{
+  "model": "post.city",
+  "pk": 40,
+  "fields": {
+    "name": "تدمر",
+    "governorate": 6
+  }
+},
+{
+  "model": "post.city",
+  "pk": 41,
+  "fields": {
+    "name": "جسر الشغور",
+    "governorate": 12
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 1,
+  "fields": {
+    "city": 1,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 2,
+  "fields": {
+    "city": 2,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 3,
+  "fields": {
+    "city": 3,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 4,
+  "fields": {
+    "city": 4,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 5,
+  "fields": {
+    "city": 5,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 6,
+  "fields": {
+    "city": 6,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 7,
+  "fields": {
+    "city": 7,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 8,
+  "fields": {
+    "city": 8,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 9,
+  "fields": {
+    "city": 9,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 10,
+  "fields": {
+    "city": 10,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 11,
+  "fields": {
+    "city": 11,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 12,
+  "fields": {
+    "city": 12,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 13,
+  "fields": {
+    "city": 13,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 14,
+  "fields": {
+    "city": 14,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 15,
+  "fields": {
+    "city": 15,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 16,
+  "fields": {
+    "city": 16,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 17,
+  "fields": {
+    "city": 17,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 18,
+  "fields": {
+    "city": 18,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 19,
+  "fields": {
+    "city": 19,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 20,
+  "fields": {
+    "city": 20,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 21,
+  "fields": {
+    "city": 21,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 22,
+  "fields": {
+    "city": 22,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 23,
+  "fields": {
+    "city": 23,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 24,
+  "fields": {
+    "city": 24,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 25,
+  "fields": {
+    "city": 25,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 26,
+  "fields": {
+    "city": 26,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 27,
+  "fields": {
+    "city": 27,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 28,
+  "fields": {
+    "city": 28,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 29,
+  "fields": {
+    "city": 29,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 30,
+  "fields": {
+    "city": 30,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 31,
+  "fields": {
+    "city": 31,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 32,
+  "fields": {
+    "city": 32,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 33,
+  "fields": {
+    "city": 33,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 34,
+  "fields": {
+    "city": 34,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 35,
+  "fields": {
+    "city": 35,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 36,
+  "fields": {
+    "city": 36,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 37,
+  "fields": {
+    "city": 37,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 38,
+  "fields": {
+    "city": 38,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 39,
+  "fields": {
+    "city": 39,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 40,
+  "fields": {
+    "city": 40,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.postoffice",
+  "pk": 41,
+  "fields": {
+    "city": 41,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 1,
+  "fields": {
+    "name": "IT Damascus",
+    "city": 1,
+    "url": "https://www.google.com",
+    "category": "Technology",
+    "details": "PCs"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 2,
+  "fields": {
+    "name": "IT Aleppo",
+    "city": 10,
+    "url": "https://www.google.com",
+    "category": "Technology",
+    "details": "Laptops"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 3,
+  "fields": {
+    "name": "IT Latakia",
+    "city": 13,
+    "url": "https://www.google.com",
+    "category": "Technology",
+    "details": "Smartphones"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 4,
+  "fields": {
+    "name": "Accessories Latakia",
+    "city": 13,
+    "url": "https://www.google.com",
+    "category": "Accessories",
+    "details": "Smartphones"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 5,
+  "fields": {
+    "name": "Accessories Aleppo",
+    "city": 10,
+    "url": "https://www.google.com",
+    "category": "Accessories",
+    "details": "Laptops"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 6,
+  "fields": {
+    "name": "Accessories Damascus",
+    "city": 1,
+    "url": "https://www.google.com",
+    "category": "Accessories",
+    "details": "PCs"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 7,
+  "fields": {
+    "name": "Furniture Damascus",
+    "city": 1,
+    "url": "https://www.google.com",
+    "category": "Furniture",
+    "details": "Living room"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 8,
+  "fields": {
+    "name": "Furniture Aleppo",
+    "city": 10,
+    "url": "https://www.google.com",
+    "category": "Furniture",
+    "details": "Kitchen"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 9,
+  "fields": {
+    "name": "Furniture Latakia",
+    "city": 13,
+    "url": "https://www.google.com",
+    "category": "Furniture",
+    "details": "Bedroom"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 10,
+  "fields": {
+    "name": "Cars Latakia",
+    "city": 13,
+    "url": "https://www.google.com",
+    "category": "Cars",
+    "details": "BMW"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 11,
+  "fields": {
+    "name": "Cars Aleppo",
+    "city": 10,
+    "url": "https://www.google.com",
+    "category": "Cars",
+    "details": "KIA"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 12,
+  "fields": {
+    "name": "Cars Damascus",
+    "city": 1,
+    "url": "https://www.google.com",
+    "category": "Cars",
+    "details": "Mercedes"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 13,
+  "fields": {
+    "name": "Equipments Damascus",
+    "city": 1,
+    "url": "https://www.google.com",
+    "category": "Equipments",
+    "details": "Office"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 14,
+  "fields": {
+    "name": "Equipments Aleppo",
+    "city": 10,
+    "url": "https://www.google.com",
+    "category": "Equipments",
+    "details": "Market"
+  }
+},
+{
+  "model": "post.store",
+  "pk": 15,
+  "fields": {
+    "name": "Equipments Latakia",
+    "city": 13,
+    "url": "https://www.google.com",
+    "category": "Equipments",
+    "details": "Library"
+  }
+},
+{
+  "model": "resturant.resturant",
+  "pk": 1,
+  "fields": {
+    "name": "مطعم",
+    "address": "سوريا, اللاذقية, المدينة, الشيخضاهر, شارع 8 آذار, بجانب مستشفى الوطني للأمراض الجلدية",
+    "phone_number": "+963953731811",
+    "tel_number": null,
+    "business_hours": "ًمفتوح دائما",
+    "description": "مطعم خمس نجوم يقدم أشهى المأكولات و المشروبات",
+    "logo": "resturant/default.jpg",
+    "cover": "resturant/cover.jpg",
+    "created_at": "2026-01-12T00:59:36.541Z",
+    "updated_at": "2026-01-12T02:17:35.675Z"
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 1,
+  "fields": {
+    "name": "مشروبات",
+    "parent": null
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 2,
+  "fields": {
+    "name": "معجنات",
+    "parent": null
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 3,
+  "fields": {
+    "name": "لفائف",
+    "parent": null
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 4,
+  "fields": {
+    "name": "طبق رئيسي",
+    "parent": null
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 5,
+  "fields": {
+    "name": "طبق جانبي",
+    "parent": null
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 6,
+  "fields": {
+    "name": "حلويات",
+    "parent": null
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 7,
+  "fields": {
+    "name": "فطور و عشاء",
+    "parent": null
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 8,
+  "fields": {
+    "name": "ساخنة",
+    "parent": 1
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 9,
+  "fields": {
+    "name": "باردة",
+    "parent": 1
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 10,
+  "fields": {
+    "name": "فطائر و مناقيش",
+    "parent": 2
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 11,
+  "fields": {
+    "name": "بيتزا",
+    "parent": 2
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 12,
+  "fields": {
+    "name": "كبة",
+    "parent": 2
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 13,
+  "fields": {
+    "name": "سندويش",
+    "parent": 3
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 14,
+  "fields": {
+    "name": "برغر",
+    "parent": 3
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 15,
+  "fields": {
+    "name": "كريب و فطير",
+    "parent": 2
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 16,
+  "fields": {
+    "name": "من الفرن",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 17,
+  "fields": {
+    "name": "محاشي",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 18,
+  "fields": {
+    "name": "معكرونة و باستا",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 19,
+  "fields": {
+    "name": "مشاوي",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 20,
+  "fields": {
+    "name": "فتة",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 21,
+  "fields": {
+    "name": "شاورما",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 22,
+  "fields": {
+    "name": "مقالي",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 23,
+  "fields": {
+    "name": "شوربة و حساء",
+    "parent": 5
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 24,
+  "fields": {
+    "name": "سلطة",
+    "parent": 5
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 25,
+  "fields": {
+    "name": "صوص",
+    "parent": 5
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 26,
+  "fields": {
+    "name": "أخرى",
+    "parent": 5
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 27,
+  "fields": {
+    "name": "كريب و فطير",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 28,
+  "fields": {
+    "name": "وافل",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 29,
+  "fields": {
+    "name": "شرقية",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 30,
+  "fields": {
+    "name": "غربية",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 31,
+  "fields": {
+    "name": "بوظة و آيس كريم",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 32,
+  "fields": {
+    "name": "فواكه",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 33,
+  "fields": {
+    "name": "إمبراطور",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 34,
+  "fields": {
+    "name": "أخرى",
+    "parent": 6
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 35,
+  "fields": {
+    "name": "باردة",
+    "parent": 7
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 36,
+  "fields": {
+    "name": "ساخنة",
+    "parent": 7
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 37,
+  "fields": {
+    "name": "أخرى",
+    "parent": 7
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 38,
+  "fields": {
+    "name": "عطارة",
+    "parent": 8
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 39,
+  "fields": {
+    "name": "قهوة",
+    "parent": 8
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 40,
+  "fields": {
+    "name": "غير غازية",
+    "parent": 9
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 41,
+  "fields": {
+    "name": "غازية",
+    "parent": 9
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 42,
+  "fields": {
+    "name": "عصائر",
+    "parent": 9
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 43,
+  "fields": {
+    "name": "كوكتيلات",
+    "parent": 9
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 44,
+  "fields": {
+    "name": "أخرى",
+    "parent": 8
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 45,
+  "fields": {
+    "name": "ميلك شيك",
+    "parent": 9
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 46,
+  "fields": {
+    "name": "كحولية",
+    "parent": 9
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 47,
+  "fields": {
+    "name": "محشية",
+    "parent": 10
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 48,
+  "fields": {
+    "name": "أخرى",
+    "parent": 10
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 49,
+  "fields": {
+    "name": "باللحوم",
+    "parent": 11
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 50,
+  "fields": {
+    "name": "أخرى",
+    "parent": 11
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 51,
+  "fields": {
+    "name": "مطبوخة",
+    "parent": 12
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 52,
+  "fields": {
+    "name": "أخرى",
+    "parent": 12
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 53,
+  "fields": {
+    "name": "شرقي",
+    "parent": 13
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 54,
+  "fields": {
+    "name": "غربي",
+    "parent": 13
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 55,
+  "fields": {
+    "name": "كباب",
+    "parent": 19
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 56,
+  "fields": {
+    "name": "أخرى",
+    "parent": 19
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 57,
+  "fields": {
+    "name": "كريب و فطير",
+    "parent": 21
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 58,
+  "fields": {
+    "name": "سندويش",
+    "parent": 21
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 59,
+  "fields": {
+    "name": "فرط",
+    "parent": 21
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 60,
+  "fields": {
+    "name": "فتة",
+    "parent": 21
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 61,
+  "fields": {
+    "name": "وجبة",
+    "parent": 21
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 62,
+  "fields": {
+    "name": "غربية",
+    "parent": 22
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 63,
+  "fields": {
+    "name": "أخرى",
+    "parent": 22
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 64,
+  "fields": {
+    "name": "بروستد",
+    "parent": 62
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 65,
+  "fields": {
+    "name": "أخرى",
+    "parent": 62
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 66,
+  "fields": {
+    "name": "كريب و فطير",
+    "parent": 3
+  }
+},
+{
+  "model": "resturant.category",
+  "pk": 67,
+  "fields": {
+    "name": "الأرز",
+    "parent": 4
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 1,
+  "fields": {
+    "name": "كمون و ليمون",
+    "price": 10,
+    "offer": null,
+    "category": 38,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:22:14.844Z",
+    "updated_at": "2026-01-11T12:22:14.844Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 2,
+  "fields": {
+    "name": "نسكافيه",
+    "price": 10,
+    "offer": null,
+    "category": 39,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:23:15.440Z",
+    "updated_at": "2026-01-11T12:23:15.440Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 3,
+  "fields": {
+    "name": "هوت شوكلت",
+    "price": 10,
+    "offer": null,
+    "category": 44,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:23:53.361Z",
+    "updated_at": "2026-01-11T12:23:53.361Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 4,
+  "fields": {
+    "name": "مياه معدنية",
+    "price": 10,
+    "offer": null,
+    "category": 40,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:24:35.403Z",
+    "updated_at": "2026-01-11T12:24:35.403Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 5,
+  "fields": {
+    "name": "سفن أب",
+    "price": 10,
+    "offer": null,
+    "category": 41,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:25:05.324Z",
+    "updated_at": "2026-01-11T12:25:05.324Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 6,
+  "fields": {
+    "name": "برتقال",
+    "price": 10,
+    "offer": null,
+    "category": 42,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:25:51.937Z",
+    "updated_at": "2026-01-11T12:25:51.937Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 7,
+  "fields": {
+    "name": "موز و حليب",
+    "price": 10,
+    "offer": null,
+    "category": 43,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:26:12.395Z",
+    "updated_at": "2026-01-11T12:26:12.395Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 8,
+  "fields": {
+    "name": "كراميل",
+    "price": 10,
+    "offer": null,
+    "category": 45,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:26:32.217Z",
+    "updated_at": "2026-01-11T12:26:32.217Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 9,
+  "fields": {
+    "name": "بيرة",
+    "price": 10,
+    "offer": null,
+    "category": 46,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:26:49.188Z",
+    "updated_at": "2026-01-11T12:26:49.188Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 10,
+  "fields": {
+    "name": "بسطرمة",
+    "price": 20,
+    "offer": null,
+    "category": 47,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:27:27.071Z",
+    "updated_at": "2026-01-11T12:27:27.072Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 11,
+  "fields": {
+    "name": "جبنة",
+    "price": 20,
+    "offer": null,
+    "category": 48,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:28:20.307Z",
+    "updated_at": "2026-01-11T12:28:20.307Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 12,
+  "fields": {
+    "name": "دجاج",
+    "price": 20,
+    "offer": null,
+    "category": 49,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:28:58.076Z",
+    "updated_at": "2026-01-11T12:28:58.076Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 13,
+  "fields": {
+    "name": "الفصول الأربعة",
+    "price": 20,
+    "offer": null,
+    "category": 50,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:29:23.839Z",
+    "updated_at": "2026-01-11T12:29:23.839Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 14,
+  "fields": {
+    "name": "سفرجلية",
+    "price": 20,
+    "offer": null,
+    "category": 51,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:29:58.830Z",
+    "updated_at": "2026-01-11T12:29:58.830Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 15,
+  "fields": {
+    "name": "مقلية",
+    "price": 20,
+    "offer": null,
+    "category": 52,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:30:17.276Z",
+    "updated_at": "2026-01-11T12:30:17.276Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 16,
+  "fields": {
+    "name": "فلافل",
+    "price": 30,
+    "offer": null,
+    "category": 53,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:30:43.334Z",
+    "updated_at": "2026-01-11T12:30:43.334Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 17,
+  "fields": {
+    "name": "كريسبي",
+    "price": 30,
+    "offer": null,
+    "category": 54,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:31:23.730Z",
+    "updated_at": "2026-01-11T12:31:23.730Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 18,
+  "fields": {
+    "name": "بيف برغر",
+    "price": 30,
+    "offer": null,
+    "category": 14,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:32:02.372Z",
+    "updated_at": "2026-01-11T12:32:02.372Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 19,
+  "fields": {
+    "name": "دجاج",
+    "price": 30,
+    "offer": null,
+    "category": 66,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:34:21.506Z",
+    "updated_at": "2026-01-11T12:34:21.506Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 20,
+  "fields": {
+    "name": "سمك",
+    "price": 40,
+    "offer": null,
+    "category": 16,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:34:58.458Z",
+    "updated_at": "2026-01-11T12:34:58.458Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 21,
+  "fields": {
+    "name": "يبرق",
+    "price": 40,
+    "offer": null,
+    "category": 17,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:35:24.523Z",
+    "updated_at": "2026-01-11T12:35:24.523Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 22,
+  "fields": {
+    "name": "مندي",
+    "price": 40,
+    "offer": null,
+    "category": 67,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:37:23.505Z",
+    "updated_at": "2026-01-11T12:37:23.505Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 23,
+  "fields": {
+    "name": "بشاميل",
+    "price": 40,
+    "offer": null,
+    "category": 18,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:38:12.681Z",
+    "updated_at": "2026-01-11T12:38:12.681Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 24,
+  "fields": {
+    "name": "حلبي",
+    "price": 40,
+    "offer": null,
+    "category": 55,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:39:46.694Z",
+    "updated_at": "2026-01-11T12:39:46.694Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 25,
+  "fields": {
+    "name": "شقف غنم",
+    "price": 40,
+    "offer": null,
+    "category": 56,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:40:06.087Z",
+    "updated_at": "2026-01-11T12:40:06.087Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 26,
+  "fields": {
+    "name": "حمص",
+    "price": 40,
+    "offer": null,
+    "category": 20,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:40:47.760Z",
+    "updated_at": "2026-01-11T12:40:47.760Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 27,
+  "fields": {
+    "name": "دجاج",
+    "price": 40,
+    "offer": null,
+    "category": 57,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:42:43.142Z",
+    "updated_at": "2026-01-11T12:42:43.142Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 28,
+  "fields": {
+    "name": "عادي",
+    "price": 40,
+    "offer": null,
+    "category": 58,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:43:10.725Z",
+    "updated_at": "2026-01-11T12:43:10.725Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 29,
+  "fields": {
+    "name": "200غ",
+    "price": 40,
+    "offer": null,
+    "category": 59,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:44:03.024Z",
+    "updated_at": "2026-01-11T12:44:03.024Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 30,
+  "fields": {
+    "name": "دجاج",
+    "price": 40,
+    "offer": null,
+    "category": 60,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:44:42.121Z",
+    "updated_at": "2026-01-11T12:44:42.121Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 31,
+  "fields": {
+    "name": "عربي دجاج",
+    "price": 40,
+    "offer": null,
+    "category": 61,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:45:06.766Z",
+    "updated_at": "2026-01-11T12:45:06.766Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 32,
+  "fields": {
+    "name": "دبوس",
+    "price": 40,
+    "offer": null,
+    "category": 64,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:45:33.904Z",
+    "updated_at": "2026-01-11T12:45:33.904Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 33,
+  "fields": {
+    "name": "سوبريم",
+    "price": 40,
+    "offer": null,
+    "category": 65,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:46:03.299Z",
+    "updated_at": "2026-01-11T12:46:03.299Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 34,
+  "fields": {
+    "name": "سمك",
+    "price": 40,
+    "offer": null,
+    "category": 63,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:46:36.430Z",
+    "updated_at": "2026-01-11T12:46:36.430Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 35,
+  "fields": {
+    "name": "عدس",
+    "price": 50,
+    "offer": null,
+    "category": 23,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:47:12.063Z",
+    "updated_at": "2026-01-11T12:47:12.063Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 36,
+  "fields": {
+    "name": "فتوش",
+    "price": 50,
+    "offer": null,
+    "category": 24,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:47:37.544Z",
+    "updated_at": "2026-01-11T12:47:37.544Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 37,
+  "fields": {
+    "name": "طحينية",
+    "price": 50,
+    "offer": null,
+    "category": 25,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:48:04.878Z",
+    "updated_at": "2026-01-11T12:48:04.878Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 38,
+  "fields": {
+    "name": "مخللات",
+    "price": 50,
+    "offer": null,
+    "category": 26,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:48:41.976Z",
+    "updated_at": "2026-01-11T12:48:41.976Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 39,
+  "fields": {
+    "name": "نوتيلا",
+    "price": 60,
+    "offer": null,
+    "category": 27,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:49:20.241Z",
+    "updated_at": "2026-01-11T12:49:20.241Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 40,
+  "fields": {
+    "name": "نوتيلا",
+    "price": 60,
+    "offer": null,
+    "category": 28,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:49:56.098Z",
+    "updated_at": "2026-01-11T12:49:56.098Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 41,
+  "fields": {
+    "name": "شرقية",
+    "price": 60,
+    "offer": null,
+    "category": 29,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:50:21.015Z",
+    "updated_at": "2026-01-11T12:50:21.015Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 42,
+  "fields": {
+    "name": "كريم كراميل",
+    "price": 60,
+    "offer": null,
+    "category": 30,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:51:16.677Z",
+    "updated_at": "2026-01-11T12:51:16.677Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 43,
+  "fields": {
+    "name": "فانيليا",
+    "price": 60,
+    "offer": null,
+    "category": 31,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:51:51.865Z",
+    "updated_at": "2026-01-11T12:51:51.865Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 44,
+  "fields": {
+    "name": "بالقشطة و العسل",
+    "price": 60,
+    "offer": null,
+    "category": 32,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:52:27.736Z",
+    "updated_at": "2026-01-11T12:52:27.736Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 45,
+  "fields": {
+    "name": "سبيشال",
+    "price": 60,
+    "offer": null,
+    "category": 33,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:53:00.809Z",
+    "updated_at": "2026-01-11T12:53:00.809Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 46,
+  "fields": {
+    "name": "سيريلاك",
+    "price": 60,
+    "offer": null,
+    "category": 34,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:53:20.569Z",
+    "updated_at": "2026-01-11T12:53:20.569Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 47,
+  "fields": {
+    "name": "بابا غنوج",
+    "price": 70,
+    "offer": null,
+    "category": 35,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:54:47.170Z",
+    "updated_at": "2026-01-11T12:54:47.170Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 48,
+  "fields": {
+    "name": "فطر مقلي",
+    "price": 70,
+    "offer": null,
+    "category": 36,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:55:23.154Z",
+    "updated_at": "2026-01-11T12:55:23.154Z"
+  }
+},
+{
+  "model": "resturant.item",
+  "pk": 49,
+  "fields": {
+    "name": "فول",
+    "price": 70,
+    "offer": null,
+    "category": 37,
+    "available": true,
+    "image": "menu/default.jpg",
+    "description": "",
+    "created_at": "2026-01-11T12:55:47.791Z",
+    "updated_at": "2026-01-11T12:55:47.792Z"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 1,
+  "fields": {
+    "city": 1,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 2,
+  "fields": {
+    "city": 2,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 3,
+  "fields": {
+    "city": 3,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 4,
+  "fields": {
+    "city": 4,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 5,
+  "fields": {
+    "city": 5,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 6,
+  "fields": {
+    "city": 6,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 7,
+  "fields": {
+    "city": 7,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 8,
+  "fields": {
+    "city": 8,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 9,
+  "fields": {
+    "city": 9,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 10,
+  "fields": {
+    "city": 10,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 11,
+  "fields": {
+    "city": 11,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 12,
+  "fields": {
+    "city": 12,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 13,
+  "fields": {
+    "city": 13,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 14,
+  "fields": {
+    "city": 14,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 15,
+  "fields": {
+    "city": 15,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 16,
+  "fields": {
+    "city": 16,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 17,
+  "fields": {
+    "city": 17,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 18,
+  "fields": {
+    "city": 18,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 19,
+  "fields": {
+    "city": 19,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 20,
+  "fields": {
+    "city": 20,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 21,
+  "fields": {
+    "city": 21,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 22,
+  "fields": {
+    "city": 22,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 23,
+  "fields": {
+    "city": 23,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 24,
+  "fields": {
+    "city": 24,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 25,
+  "fields": {
+    "city": 25,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 26,
+  "fields": {
+    "city": 26,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 27,
+  "fields": {
+    "city": 27,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 28,
+  "fields": {
+    "city": 28,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 29,
+  "fields": {
+    "city": 29,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 30,
+  "fields": {
+    "city": 30,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 31,
+  "fields": {
+    "city": 31,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 32,
+  "fields": {
+    "city": 32,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 33,
+  "fields": {
+    "city": 33,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 34,
+  "fields": {
+    "city": 34,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 35,
+  "fields": {
+    "city": 35,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 36,
+  "fields": {
+    "city": 36,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 37,
+  "fields": {
+    "city": 37,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 38,
+  "fields": {
+    "city": 38,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 39,
+  "fields": {
+    "city": 39,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 40,
+  "fields": {
+    "city": 40,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "statement.atm",
+  "pk": 41,
+  "fields": {
+    "city": 41,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 1,
+  "fields": {
+    "name": "الشريحة الأولى",
+    "min": 1,
+    "max": 10000,
+    "fee": 100
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 2,
+  "fields": {
+    "name": "الشريحة الثانية",
+    "min": 10000,
+    "max": 20000,
+    "fee": 200
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 3,
+  "fields": {
+    "name": "الشريحة الثالثة",
+    "min": 20000,
+    "max": 30000,
+    "fee": 300
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 4,
+  "fields": {
+    "name": "الشريحة الرابعة",
+    "min": 30000,
+    "max": 40000,
+    "fee": 400
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 5,
+  "fields": {
+    "name": "الشريحة الخامسة",
+    "min": 40000,
+    "max": 50000,
+    "fee": 500
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 6,
+  "fields": {
+    "name": "الشريحة السادسة",
+    "min": 50000,
+    "max": 60000,
+    "fee": 600
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 7,
+  "fields": {
+    "name": "الشريحة السابعة",
+    "min": 60000,
+    "max": 70000,
+    "fee": 700
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 8,
+  "fields": {
+    "name": "الشريحة الثامنة",
+    "min": 70000,
+    "max": 80000,
+    "fee": 800
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 9,
+  "fields": {
+    "name": "الشريحة التاسعة",
+    "min": 80000,
+    "max": 90000,
+    "fee": 900
+  }
+},
+{
+  "model": "transfer.fee",
+  "pk": 10,
+  "fields": {
+    "name": "الشريحة العاشرة",
+    "min": 90000,
+    "max": 100000,
+    "fee": 1000
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 1,
+  "fields": {
+    "name": "محطة دمشق",
+    "city": 1,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 2,
+  "fields": {
+    "name": "محطة ريف دمشق",
+    "city": 2,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 3,
+  "fields": {
+    "name": "محطة السويداء",
+    "city": 3,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 4,
+  "fields": {
+    "name": "محطة درعا",
+    "city": 4,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 5,
+  "fields": {
+    "name": "محطة القنيطرة",
+    "city": 5,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 6,
+  "fields": {
+    "name": "محطة حمص",
+    "city": 6,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 7,
+  "fields": {
+    "name": "محطة دير الزور",
+    "city": 7,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 8,
+  "fields": {
+    "name": "محطة الرقة",
+    "city": 8,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 9,
+  "fields": {
+    "name": "محطة الحسكة",
+    "city": 9,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 10,
+  "fields": {
+    "name": "محطة حلب",
+    "city": 10,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 11,
+  "fields": {
+    "name": "محطة حماه",
+    "city": 11,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 12,
+  "fields": {
+    "name": "محطة إدلب",
+    "city": 12,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 13,
+  "fields": {
+    "name": "محطة اللاذقية",
+    "city": 13,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.station",
+  "pk": 14,
+  "fields": {
+    "name": "محطة طرطوس",
+    "city": 14,
+    "address": "الشارع رقم 1 - البناء رقم 1"
+  }
+},
+{
+  "model": "travel.bus",
+  "pk": 1,
+  "fields": {
+    "name": "الباص الأول",
+    "number": 1,
+    "capacity": 40
+  }
+},
+{
+  "model": "travel.bus",
+  "pk": 2,
+  "fields": {
+    "name": "الباص الثاني",
+    "number": 2,
+    "capacity": 20
+  }
+},
+{
+  "model": "travel.bus",
+  "pk": 3,
+  "fields": {
+    "name": "الباص الثالث",
+    "number": 3,
+    "capacity": 28
+  }
+},
+{
+  "model": "travel.bus",
+  "pk": 4,
+  "fields": {
+    "name": "الباص الرابع",
+    "number": 4,
+    "capacity": 32
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 15,
+  "fields": {
+    "bus": 1,
+    "departure_station": 1,
+    "arrival_station": 13,
+    "departure_datetime": "2025-05-01T20:35:31Z",
+    "arrival_datetime": "2025-05-01T21:35:39Z",
+    "price": 3000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 16,
+  "fields": {
+    "bus": 1,
+    "departure_station": 1,
+    "arrival_station": 13,
+    "departure_datetime": "2025-05-02T20:35:31Z",
+    "arrival_datetime": "2025-05-02T21:35:39Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 17,
+  "fields": {
+    "bus": 1,
+    "departure_station": 1,
+    "arrival_station": 13,
+    "departure_datetime": "2025-05-03T20:35:31Z",
+    "arrival_datetime": "2025-05-03T21:35:39Z",
+    "price": 3000,
+    "petrol": 500,
+    "driver": 500,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 86,
+  "fields": {
+    "bus": 1,
+    "departure_station": 1,
+    "arrival_station": 13,
+    "departure_datetime": "2025-12-02T05:00:00Z",
+    "arrival_datetime": "2025-12-02T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 87,
+  "fields": {
+    "bus": 1,
+    "departure_station": 13,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-02T06:15:00Z",
+    "arrival_datetime": "2025-12-02T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 88,
+  "fields": {
+    "bus": 2,
+    "departure_station": 1,
+    "arrival_station": 10,
+    "departure_datetime": "2025-12-02T05:00:00Z",
+    "arrival_datetime": "2025-12-02T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 89,
+  "fields": {
+    "bus": 2,
+    "departure_station": 10,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-02T06:15:00Z",
+    "arrival_datetime": "2025-12-02T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 90,
+  "fields": {
+    "bus": 3,
+    "departure_station": 1,
+    "arrival_station": 9,
+    "departure_datetime": "2025-12-02T05:00:00Z",
+    "arrival_datetime": "2025-12-02T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 91,
+  "fields": {
+    "bus": 3,
+    "departure_station": 9,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-02T06:15:00Z",
+    "arrival_datetime": "2025-12-02T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 92,
+  "fields": {
+    "bus": 4,
+    "departure_station": 1,
+    "arrival_station": 4,
+    "departure_datetime": "2025-12-02T05:00:00Z",
+    "arrival_datetime": "2025-12-02T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 93,
+  "fields": {
+    "bus": 4,
+    "departure_station": 4,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-02T06:15:00Z",
+    "arrival_datetime": "2025-12-02T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 94,
+  "fields": {
+    "bus": 1,
+    "departure_station": 1,
+    "arrival_station": 13,
+    "departure_datetime": "2025-12-09T05:00:00Z",
+    "arrival_datetime": "2025-12-09T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 95,
+  "fields": {
+    "bus": 1,
+    "departure_station": 13,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-09T06:15:00Z",
+    "arrival_datetime": "2025-12-09T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 96,
+  "fields": {
+    "bus": 2,
+    "departure_station": 1,
+    "arrival_station": 10,
+    "departure_datetime": "2025-12-09T05:00:00Z",
+    "arrival_datetime": "2025-12-09T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 97,
+  "fields": {
+    "bus": 2,
+    "departure_station": 10,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-09T06:15:00Z",
+    "arrival_datetime": "2025-12-09T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 98,
+  "fields": {
+    "bus": 3,
+    "departure_station": 1,
+    "arrival_station": 9,
+    "departure_datetime": "2025-12-09T05:00:00Z",
+    "arrival_datetime": "2025-12-09T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 99,
+  "fields": {
+    "bus": 3,
+    "departure_station": 9,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-09T06:15:00Z",
+    "arrival_datetime": "2025-12-09T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 100,
+  "fields": {
+    "bus": 4,
+    "departure_station": 1,
+    "arrival_station": 4,
+    "departure_datetime": "2025-12-09T05:00:00Z",
+    "arrival_datetime": "2025-12-09T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.journey",
+  "pk": 101,
+  "fields": {
+    "bus": 4,
+    "departure_station": 4,
+    "arrival_station": 1,
+    "departure_datetime": "2025-12-09T06:15:00Z",
+    "arrival_datetime": "2025-12-09T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 7,
+  "fields": {
+    "category": "A",
+    "bus": 1,
+    "departure_station": 1,
+    "arrival_station": 13,
+    "departure_datetime": "2000-01-01T05:00:00Z",
+    "arrival_datetime": "2000-01-01T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 8,
+  "fields": {
+    "category": "A",
+    "bus": 1,
+    "departure_station": 13,
+    "arrival_station": 1,
+    "departure_datetime": "2000-01-01T06:15:00Z",
+    "arrival_datetime": "2000-01-01T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 9,
+  "fields": {
+    "category": "A",
+    "bus": 2,
+    "departure_station": 1,
+    "arrival_station": 10,
+    "departure_datetime": "2000-01-01T05:00:00Z",
+    "arrival_datetime": "2000-01-01T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 10,
+  "fields": {
+    "category": "A",
+    "bus": 2,
+    "departure_station": 10,
+    "arrival_station": 1,
+    "departure_datetime": "2000-01-01T06:15:00Z",
+    "arrival_datetime": "2000-01-01T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 11,
+  "fields": {
+    "category": "A",
+    "bus": 3,
+    "departure_station": 1,
+    "arrival_station": 9,
+    "departure_datetime": "2000-01-01T05:00:00Z",
+    "arrival_datetime": "2000-01-01T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 12,
+  "fields": {
+    "category": "A",
+    "bus": 3,
+    "departure_station": 9,
+    "arrival_station": 1,
+    "departure_datetime": "2000-01-01T06:15:00Z",
+    "arrival_datetime": "2000-01-01T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 13,
+  "fields": {
+    "category": "A",
+    "bus": 4,
+    "departure_station": 1,
+    "arrival_station": 4,
+    "departure_datetime": "2000-01-01T05:00:00Z",
+    "arrival_datetime": "2000-01-01T06:00:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+},
+{
+  "model": "travel.schedule",
+  "pk": 14,
+  "fields": {
+    "category": "A",
+    "bus": 4,
+    "departure_station": 4,
+    "arrival_station": 1,
+    "departure_datetime": "2000-01-01T06:15:00Z",
+    "arrival_datetime": "2000-01-01T07:15:00Z",
+    "price": 2000,
+    "petrol": 1000,
+    "driver": 1000,
+    "collector": 1000
+  }
+}
+]
